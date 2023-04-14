@@ -1,0 +1,101 @@
+Running time for each method with different values of N. 
+
+Selection Sort
+
+10 	| 0.006125 ms
+100	| 0.234542 ms
+1,000	| 4.347833 ms
+10,000	| 78.844125 ms
+100,000	| 6726.089667 ms				
+
+Insertion Sort
+
+10 	| 0.004292 ms
+100	| 0.290875 ms
+1,000	| 4.91725 ms
+10,000	| 79.121625 ms
+100,000	| 6745.180334 ms
+
+Bubble Sort
+
+10 	| 0.0065 ms
+100	| 0.454458 ms
+1,000	| 13.03075 ms
+10,000	| 28.442958 ms
+100,000	| 22254.041166 ms
+
+Shell Sort
+
+10 	| 0.005083 ms
+100	| 0.112625 ms
+1,000	| 0.567208 ms
+10,000	| 5.879166 ms
+100,000	| 29.204375 ms
+
+Merge Sort 
+
+10 	| 0.007 ms
+100	| 0.107625 ms
+1,000	| 0.534333 ms
+10,000	| 4.549625 ms
+100,000	| 31.387209 ms
+
+Quick Sort
+
+10 	| 0.008333 ms
+100	| 0.099208 ms
+1,000	| 0.465958 ms
+10,000	| 2.410375 ms
+100,000	| 19.711458 ms
+
+Heap Sort 
+
+10 	| 0.351333  ms
+100	| 0.536708 ms
+1,000	| 1.936334 ms
+10,000	| 5.294208 ms
+100,000	| 36.2375 ms
+
+ 
+Analysis  
+
+The timing results are consistent with the complexity analysis on the sorting algorithms discussed in class, over all Quick sort, Merge sort and Heap sort have the best performance with O(nlog n ) time complexity. 
+
+Rank of each algorithm when the array is large, from the fastest to slowest;
+1. Quick Sort 19.711458 ms
+2. Shell Sort 29.204375 ms
+3. Merge Sort 31.387209 ms 
+4. Heap Sort  36.2375 ms
+5. Selection Sort 6726.089667 ms
+6. Insertion Sort 6745.180334 ms 
+7. Bubble Sort 22254.041166 ms
+
+I did not expect Quick sort to be on the top of the list, because it has O(n^2) time complexity, and the others O(nlong n).  
+And expect for Heap sort all of the algorithms seem to have almost the same performance. 
+
+Running Time for Each Method with Different values of N to Sort (Almost) Sorted Arrays
+
+Selection Sort
+100,000	| 6681.181333 ms				
+
+Insertion Sort
+100,000	| 21.302042 ms
+
+Bubble Sort
+100,000	| 6293.966458 ms
+
+Shell Sort
+100,000	| 11.534208 ms
+
+Merge Sort 
+100,000	| 23.844958 ms
+
+Quick Sort
+100,000	| 14.887083 ms
+
+Heap Sort 
+100,000	| 28.598875 ms
+
+Analysis 
+
+I saw a significant difference in performance for Insertion sort and Bubble sort, I also saw a slight change in the other algorithm as well, but I think that change can be ignored. 
